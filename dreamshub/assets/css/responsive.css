@@ -1,0 +1,193 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {  
+    .menu-top {
+        background-color: #ffffff;
+        padding: 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .menu-top .navbar-nav > li > a {
+        color: #555555;
+        text-align: center;
+    }
+    .menu-top .navbar-nav > li > a:focus, 
+    .menu-top .navbar-nav > li > a:hover {
+        color: #555555;
+    }
+    .menu-top .navbar-nav > .active > a, 
+    .menu-top .navbar-nav > .active > a:focus, 
+    .menu-top .navbar-nav > .active > a:hover {
+        color: #555555;
+    }
+    .menu-top .navbar-brand {
+        font-size: 20px;
+    }
+    .single-slider-item {
+        height: 600px;
+        padding-top: 0;
+    }
+    .single-slider-item h1 {
+        font-size: 25px;
+    }
+    .single-slider-item h1 span {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .default-btn {
+        font-size: 13px;
+        padding: 10px 23px;
+    }
+    .single-slider-item .banner-btn .white-btn {
+        margin-left: 5px;
+    }
+    .single-slider-item p {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .about-us {
+        padding: 50px 0 10px;
+    }
+    .about-us .about-us-text {
+        padding-top: 0;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .separator-line {
+        margin: 50px 0;
+    }
+    .we-are-creative {
+        margin-top: 40px;
+    }
+    .services {
+        padding: 50px 0 0;
+    }
+    .process {
+        padding: 50px 0 20px;
+    }
+    .sorting-menu > ul > li {
+        margin: 0 2px 5px;
+    }
+    .no-padding {
+        padding: 0 15px;
+    }
+    .single-project {
+        margin-bottom: 25px;
+    }
+    .project {
+        padding: 50px 0 20px;
+    }
+    .project-details-content {
+        margin: 0 auto;
+    }
+    .modal-content {
+        height: auto;
+    }
+    .project-details-text h3 {
+        margin-top: 25px;
+    }
+    .stats {
+        padding: 50px 0 20px;
+    }
+    .team {
+        padding: 50px 0 20px;
+    }
+    .price-table-area {
+        padding: 50px 0 20px;
+    }
+    .contact-form {
+        padding: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer p {
+        margin: 5px 0 15px;
+    }
+    .footer .social-links {
+        text-align: center;
+    }
+    .step::before {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .owl-controls .owl-nav .owl-prev i, 
+    .owl-controls .owl-nav .owl-next i {
+        width: 30px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-top .navbar-nav > li > a {
+        padding: 15px 10px;
+    }
+    .single-slider-item h1 {
+        font-size: 30px;
+    }
+    .single-slider-item h1 span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    section {
+        padding: 70px 0;
+    }
+    .section-title {
+        margin-bottom: 70px;
+    }
+    .about-us {
+        padding: 70px 0 30px;
+    }
+    .about-us .about-us-text {
+        padding-bottom: 70px;
+        padding-top: 0;
+    }
+    .separator-line {
+        margin: 70px 0;
+    }
+    .services {
+        padding: 70px 0 20px;
+    }
+    .process {
+        padding: 70px 0 40px;
+    }
+    .stats {
+        padding: 70px 0 40px;
+    }
+    .single-client-feedback {
+        padding: 30px 15px;
+    }
+    .team {
+        padding: 70px 0 40px;
+    }
+    .price-table-area {
+        padding: 70px 0 40px;
+    }
+    .single-slider-item p {
+        font-size: 17px;
+        padding: 0 30px;
+    }
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .single-slider-item h1 span {
+        font-size: 40px;
+    }
+    .about-us .about-us-text {
+        padding-top: 0;
+    }
+    .single-slider-item p {
+        padding: 0 30px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .project-details-content {
+        margin: 12% auto 0;
+    }
+}
